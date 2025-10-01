@@ -1,0 +1,29 @@
+@import url(button-styling.css);
+@import url(header.css);
+@import url(text-styling.css);
+@import url(typography.css);
+@import url(variables.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--brand-color-gray);
+  color: var(--brand-color-white);
+  min-block-size: 100dvb;
+}
+
+.hero-section {
+  display: grid;
+  gap: 0.75rem;
+  justify-content: center;
+  padding-block: 5rem;
+
+  .hero-button {
+    max-inline-size: max-content;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+  }
+}

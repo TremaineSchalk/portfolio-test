@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  background-color: var(--brand-color-red);
+  justify-content: space-between;
+  align-items: center;
+  block-size: 25vh;
+}
+
+.logo {
+  display: inherit;
+  margin-block-start: -1.7rem;
+  filter: drop-shadow(4px 4px 10px #00000090);
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  margin-inline-end: 1.25rem;
+}
+
+.navbar > ul > li {
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: var(--brand-color-white);
+  }
+}
